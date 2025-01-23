@@ -58,7 +58,7 @@ const CheckOutForm = () => {
   };
   const altText = "title";
   return (
-    <div className="h-auto md:h-auto lg:min-h-screen  flex items-center justify-center px-4 ">
+    <div className="h-auto md:h-auto   flex items-center justify-center px-4 ">
       <form
         className="bg-white rounded-lg  max-w-4xl w-full p-8"
         onSubmit={handleSubmit}

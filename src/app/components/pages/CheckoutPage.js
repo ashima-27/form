@@ -13,7 +13,7 @@ export const CheckoutPage = () => {
         </Heading>
       </div>
 
-      <div className="w-full max-w-6xl gap-2 justify-between flex flex-col md:flex-row  mx-auto bg-white rounded-3xl   ">
+      <div className="w-full md:w-8/12 lg:w-10/12 gap-2 justify-between flex flex-col md:flex-row  mx-auto bg-white rounded-3xl   ">
         <div className="w-full md:w-full lg:w-6/12 flex justify-center items-center">
           <ImageHeadingSpanCard
             imageSrc={logo}
