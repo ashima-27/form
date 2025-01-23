@@ -4,7 +4,7 @@ import { Input, Span } from "../atoms/index";
 
 const FormGroup = ({ label, inputProps, error, className = "" }) => {
   return (
-    <div className={`mb-4 ${className}`}>
+    <div className={`flex gap-2 mb-4 ${className}`}>
       <Label htmlFor={inputProps.id}>{label}</Label>
 
       <Input {...inputProps} />
