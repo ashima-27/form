@@ -125,7 +125,7 @@ const CheckOutForm = () => {
           <Heading level={2} className="text-xl mb-2">
             Payment Method
           </Heading>
-          <div className="flex flex-row gap-4">
+          <div className="flex flex-row gap-4 overflow-hidden md:overflow-scroll lg:overflow-hidden">
             <Image
               src={visa}
               width={10}

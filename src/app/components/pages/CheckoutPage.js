@@ -14,7 +14,7 @@ export const CheckoutPage = () => {
       </div>
 
       <div className="w-full max-w-6xl gap-2 justify-between flex flex-col md:flex-row  mx-auto bg-white rounded-3xl   ">
-        <div className="w-full md:w-6/12 flex justify-center items-center">
+        <div className="w-full md:w-full lg:w-6/12 flex justify-center items-center">
           <ImageHeadingSpanCard
             imageSrc={logo}
             headingText="Payment gateway"
@@ -22,7 +22,7 @@ export const CheckoutPage = () => {
             altText="Payment gateway logo"
           />
         </div>
-        <div className="w-full md:w-6/12 mr-4">
+        <div className="w-full md:w-full lg:w-6/12 mr-4">
           <CheckOutForm />
         </div>
       </div>
