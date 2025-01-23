@@ -22,7 +22,7 @@ export const CheckoutPage = () => {
             altText="Payment gateway logo"
           />
         </div>
-        <div className="w-full md:w-6/12">
+        <div className="w-full md:w-6/12 mr-4">
           <CheckOutForm />
         </div>
       </div>
