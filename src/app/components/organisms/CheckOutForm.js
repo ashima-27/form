@@ -4,7 +4,11 @@ import React, { useState } from "react";
 import { FormGroup } from "../molecules/index";
 import Image from "next/image";
 import { Button, Heading } from "../atoms/index";
-
+import visa from "../../assets/visa.svg";
+import pay from "../../assets/paypal.svg";
+import stripe from "../../assets/stripe.svg";
+import gpay from "../../assets/gpay.svg";
+import debit from "../../assets/debit.svg";
 const CheckOutForm = () => {
   const [formData, setFormData] = useState({
     addressLine: "",
@@ -59,6 +63,9 @@ const CheckOutForm = () => {
         className="bg-white rounded-lg  max-w-4xl w-full p-8"
         onSubmit={handleSubmit}
       >
+        <Heading level={6} className="text-xl mb-2">
+          Complete Registration Payment
+        </Heading>
         <section className="mb-2">
           <Heading level={2} className="text-xl mb-2">
             Personal details
@@ -120,39 +127,39 @@ const CheckOutForm = () => {
           </Heading>
           <div className="flex flex-row gap-4">
             <Image
-              src={"../components/assets/stripe.svg"}
+              src={visa}
+              width={10}
+              height={10}
               alt={altText}
-              layout="fill"
-              objectFit="cover"
-              className="rounded-lg"
+              className="md:w-14 md:h-14 w-10 h-10"
             />
             <Image
-              src={"../components/assets/visa.svg"}
+              src={stripe}
+              width={10}
+              height={10}
               alt={altText}
-              layout="fill"
-              objectFit="cover"
-              className="rounded-lg"
+              className="md:w-14 md:h-14 w-10 h-10"
             />
             <Image
-              src={"../components/assets/pay.svg"}
+              src={pay}
+              width={10}
+              height={10}
               alt={altText}
-              layout="fill"
-              objectFit="cover"
-              className="rounded-lg"
+              className="md:w-14 md:h-14 w-10 h-10"
             />
             <Image
-              src={"../components/assets/masters.svg"}
+              src={debit}
+              width={10}
+              height={10}
               alt={altText}
-              layout="fill"
-              objectFit="cover"
-              className="rounded-lg"
+              className="md:w-14 md:h-14 w-10 h-10"
             />
             <Image
-              src={"../components/assets/google.svg"}
+              src={gpay}
+              width={10}
+              height={10}
               alt={altText}
-              layout="fill"
-              objectFit="cover"
-              className="rounded-lg"
+              className="md:w-14 md:h-14 w-10 h-10"
             />
           </div>
         </section>
