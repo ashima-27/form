@@ -95,6 +95,8 @@ const CheckOutForm = () => {
               }}
               error={errors.city}
             />
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <FormGroup
               label="State"
               inputProps={{
@@ -167,7 +169,7 @@ const CheckOutForm = () => {
           <Heading level={2} className="text-xl mb-2">
             Card details
           </Heading>
-          <div className="grid grid-cols-1 gap-4">
+          <div className="grid grid-cols-1 ">
             <FormGroup
               label="Cardholder's name"
               inputProps={{
