@@ -70,7 +70,7 @@ const CheckOutForm = () => {
           <Heading level={2} className="text-xl mb-2">
             Personal details
           </Heading>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
             <FormGroup
               label="Address line"
               inputProps={{
@@ -96,7 +96,7 @@ const CheckOutForm = () => {
               error={errors.city}
             />
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
             <FormGroup
               label="State"
               inputProps={{
@@ -127,7 +127,7 @@ const CheckOutForm = () => {
           <Heading level={2} className="text-xl mb-2">
             Payment Method
           </Heading>
-          <div className="flex flex-row gap-4 overflow-hidden md:overflow-scroll lg:overflow-hidden">
+          <div className="flex flex-row gap-2 overflow-hidden md:overflow-scroll lg:overflow-hidden">
             <Image
               src={visa}
               width={10}
@@ -195,7 +195,7 @@ const CheckOutForm = () => {
               error={errors.cardNumber}
             />
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
             <FormGroup
               label="Expiry"
               inputProps={{
