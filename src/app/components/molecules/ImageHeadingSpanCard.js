@@ -11,7 +11,8 @@ const ImageHeadingSpanCard = ({ imageSrc, headingText, spanText, altText }) => {
           alt={altText}
           layout="fill"
           objectFit="cover"
-          className="rounded-lg w-4/12"
+          className="object-cover transition-all hover:scale-105"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
       </div>
 
