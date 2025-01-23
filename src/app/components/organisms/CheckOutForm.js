@@ -63,11 +63,11 @@ const CheckOutForm = () => {
         className="bg-white rounded-lg  max-w-4xl w-full p-8"
         onSubmit={handleSubmit}
       >
-        <Heading level={6} className="text-xl mb-2">
+        <Heading level={1} className="text-xl mb-2">
           Complete Registration Payment
         </Heading>
         <section className="mb-2">
-          <Heading level={2} className="text-xl mb-2">
+          <Heading level={2} className="text-xl mb-2 font-semibold">
             Personal details
           </Heading>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
@@ -124,7 +124,7 @@ const CheckOutForm = () => {
           </div>
         </section>
         <section className="mb-2">
-          <Heading level={2} className="text-xl mb-2">
+          <Heading level={2} className="text-xl font-semibold mb-2">
             Payment Method
           </Heading>
           <div className="flex flex-row gap-2 overflow-hidden md:overflow-scroll lg:overflow-hidden">
@@ -166,7 +166,7 @@ const CheckOutForm = () => {
           </div>
         </section>
         <section className="mb-2">
-          <Heading level={2} className="text-xl mb-2">
+          <Heading level={2} className="text-xl font-semibold mb-2">
             Card details
           </Heading>
           <div className="grid grid-cols-1 ">
