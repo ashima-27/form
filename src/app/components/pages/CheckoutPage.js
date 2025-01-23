@@ -5,7 +5,7 @@ import logo from "../../assets/logo.svg";
 
 export const CheckoutPage = () => {
   return (
-    <div className="max-h-screen p-4 flex flex-col items-center mt-8 ">
+    <div className="pt-4 px-4 flex flex-col items-center mt-8 bottom-[-5]">
       <div className="w-full max-w-4xl mb-8 text-center">
         <Heading level={6} className="text-white text-4xl md:text-5xl">
           Card Payment <br />
@@ -13,7 +13,7 @@ export const CheckoutPage = () => {
         </Heading>
       </div>
 
-      <div className="w-full max-w-6xl gap-5 justify-between flex flex-col md:flex-row  mx-auto bg-white rounded-3xl bottom-0 fixed ">
+      <div className="w-full max-w-6xl gap-2 justify-between flex flex-col md:flex-row  mx-auto bg-white rounded-3xl   ">
         <div className="w-full md:w-6/12 flex justify-center items-center">
           <ImageHeadingSpanCard
             imageSrc={logo}
