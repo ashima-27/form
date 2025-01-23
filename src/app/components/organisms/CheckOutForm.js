@@ -60,7 +60,7 @@ const CheckOutForm = () => {
   return (
     <div className="h-auto md:h-auto   flex items-center justify-center px-4 ">
       <form
-        className="bg-white rounded-lg   md:max-w-4xl w-full md:p-8 p-4"
+        className="bg-white rounded-lg   w-full md:p-8 p-4"
         onSubmit={handleSubmit}
       >
         <Heading level={1} className="text-xl mb-2">
